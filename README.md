@@ -1,4 +1,4 @@
-# 🎙️ AI Meeting Summarizer
+# AI Meeting Summarizer
 
 > A production-style full-stack application that turns meeting **audio recordings**
 > into a **transcript**, **summary**, **key decisions**, and **action items** with
@@ -10,7 +10,7 @@ speech-to-text runs on **local OpenAI Whisper** and summarization uses the
 
 ---
 
-## ✨ Features
+## Features
 
 - **Local Speech-to-Text** — OpenAI Whisper (`base` recommended) runs on your machine.
 - **Structured LLM Summarization** — summary, decisions, and action items as JSON.
@@ -23,7 +23,7 @@ speech-to-text runs on **local OpenAI Whisper** and summarization uses the
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐     upload      ┌──────────────────────────────┐
@@ -50,7 +50,7 @@ speech-to-text runs on **local OpenAI Whisper** and summarization uses the
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer      | Technology                                            |
 |------------|-------------------------------------------------------|
@@ -62,7 +62,7 @@ speech-to-text runs on **local OpenAI Whisper** and summarization uses the
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI-Meeting-Summarizer/
@@ -96,7 +96,7 @@ AI-Meeting-Summarizer/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -183,7 +183,7 @@ The frontend polls `GET /api/meetings/{id}` until `status` is `completed` or `fa
 
 ---
 
-## 🛡️ Security
+## Security
 
 - All secrets live in `.env` (gitignored). Never commit `.env`.
 - Uploads are restricted to `.mp3/.wav/.m4a/.ogg/.flac` and **50 MB max**.
@@ -192,7 +192,7 @@ The frontend polls `GET /api/meetings/{id}` until `status` is `completed` or `fa
 
 ---
 
-## 🧪 Common Errors & Fixes
+## Common Errors & Fixes
 
 | Error | Cause | Fix |
 |-------|-------|-----|
@@ -206,7 +206,7 @@ The frontend polls `GET /api/meetings/{id}` until `status` is `completed` or `fa
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Speaker diarization (who said what).
 - Live recording from microphone.
@@ -217,6 +217,6 @@ The frontend polls `GET /api/meetings/{id}` until `status` is `completed` or `fa
 
 ---
 
-## 📄 License
+## License
 
 MIT — free for educational use.

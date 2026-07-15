@@ -4,9 +4,6 @@
 > into a **transcript**, **summary**, **key decisions**, and **action items** with
 > owners and deadlines — entirely on **free / local models**.
 
-Built for a BTech CSE (AI) assignment. No paid Whisper API, no paid LLM — the
-speech-to-text runs on **local OpenAI Whisper** and summarization uses the
-**Google Gemini free tier** (or a **local Ollama** model).
 
 ---
 
@@ -147,7 +144,7 @@ Open **http://localhost:5173**.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 | Method | Endpoint                  | Description                          |
 |--------|---------------------------|--------------------------------------|

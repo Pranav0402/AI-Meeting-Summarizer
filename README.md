@@ -217,3 +217,7 @@ The frontend polls `GET /api/meetings/{id}` until `status` is `completed` or `fa
 ## License
 
 MIT — free for educational use.
+
+## Demo Video
+
+https://drive.google.com/file/d/1F8g8osAP6UZIbJsSrtkd-Jx8ga9ev1Wz/view?usp=drive_link
